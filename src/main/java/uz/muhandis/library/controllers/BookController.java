@@ -1,14 +1,14 @@
-package uz.muhandis.project1.controllers;
+package uz.muhandis.library.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import uz.muhandis.project1.dao.BookDAO;
-import uz.muhandis.project1.dao.PersonDAO;
-import uz.muhandis.project1.models.Book;
-import uz.muhandis.project1.models.Person;
+import uz.muhandis.library.dao.BookDAO;
+import uz.muhandis.library.dao.PersonDAO;
+import uz.muhandis.library.models.Book;
+import uz.muhandis.library.models.Person;
 
 import javax.validation.Valid;
 import java.util.List;

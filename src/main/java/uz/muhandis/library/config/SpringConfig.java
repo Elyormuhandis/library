@@ -1,4 +1,4 @@
-package uz.muhandis.project1.config;
+package uz.muhandis.library.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -22,7 +22,7 @@ import javax.sql.DataSource;
  * @author Neil Alishev
  */
 @Configuration
-@ComponentScan("uz.muhandis.project1")
+@ComponentScan("uz.muhandis.library")
 @EnableWebMvc
 @PropertySource("classpath:database.properties")//сканирует и берет полей с указонного файла
 public class SpringConfig implements WebMvcConfigurer {

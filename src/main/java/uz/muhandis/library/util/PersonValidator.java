@@ -1,11 +1,11 @@
-package uz.muhandis.project1.util;
+package uz.muhandis.library.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
-import uz.muhandis.project1.dao.PersonDAO;
-import uz.muhandis.project1.models.Person;
+import uz.muhandis.library.dao.PersonDAO;
+import uz.muhandis.library.models.Person;
 
 @Component
 public class PersonValidator implements Validator {

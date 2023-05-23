@@ -1,13 +1,13 @@
-package uz.muhandis.project1.controllers;
+package uz.muhandis.library.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import uz.muhandis.project1.dao.PersonDAO;
-import uz.muhandis.project1.models.Person;
-import uz.muhandis.project1.util.PersonValidator;
+import uz.muhandis.library.dao.PersonDAO;
+import uz.muhandis.library.models.Person;
+import uz.muhandis.library.util.PersonValidator;
 
 import javax.validation.Valid;
 

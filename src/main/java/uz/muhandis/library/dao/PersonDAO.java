@@ -1,11 +1,11 @@
-package uz.muhandis.project1.dao;
+package uz.muhandis.library.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
-import uz.muhandis.project1.models.Book;
-import uz.muhandis.project1.models.Person;
+import uz.muhandis.library.models.Book;
+import uz.muhandis.library.models.Person;
 
 import java.util.List;
 import java.util.Optional;

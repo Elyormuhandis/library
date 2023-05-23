@@ -1,4 +1,4 @@
-package uz.muhandis.project1.config;
+package uz.muhandis.library.config;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;

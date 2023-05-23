@@ -1,4 +1,4 @@
-package uz.muhandis.project1.models;
+package uz.muhandis.library.models;
 
 
 import javax.validation.constraints.Min;
